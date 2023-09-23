@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.container {
+  height: 100vh;
+  width: 100%; }
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 20px; }
+  .nav > img {
+    width: 100px;
+    height: 100px;
+    object-position: center;
+    object-fit: contain; }
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  gap: 30px; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.div1 {
+  display: flex;
+  width: 100%;
+  height: 100%; }
+
+.left {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  justify-content: center;
+  gap: 20px; }
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: #1E90FF;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .4s ease-in-out;
+  outline: none; }
+
+.right {
+  background-image: url(228fbc5e-729a-4f61-8f17-51de9c89c499.png);
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 100%;
+  background-repeat: no-repeat; }
+
+.div2 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px; }
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 40%; }
+
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: #f6f7f852;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0px 5px 5px #bdb1b1; }
+
+.div3 {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px; }
+
+.images {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 60px; }
+
+.images > img {
+  width: 300px;
+  height: 200px;
+  object-fit: contain; }
+
+.cont1, .cont2, .cont3 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px; }
+
+.div4 {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px; }
+
+.div4-cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 80px; }
+
+.div4-left, .div4-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.left1 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px; }
+
+.div4-left {
+  gap: 150px; }
+
+.top {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 20px; }
+
+.top > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+
+.right1 {
+  margin-top: 200px;
+  width: 60%;
+  gap: 30px;
+  display: flex;
+  flex-direction: column; }
+
+.div5 {
+  width: 100%;
+  margin-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.div5-cont {
+  margin-top: 30px;
+  width: 90%;
+  height: 40vh;
+  background-color: aliceblue;
+  border-radius: 50px;
+  box-shadow: 0px 5px 35px #bdb1b1;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+
+.div5-cont1 {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  align-items: center; }
+  .div5-cont1 > img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain; }
+
+.div5-cont2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: absolute;
+  top: 50%; }
+
+.card-img {
+  display: flex; }
+
+.div5-card {
+  width: 350px;
+  height: 360px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 20px;
+  background-color: #fffef9;
+  box-shadow: 0px 45px 45px #bdb1b1; }
+  .div5-card .name {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+  .div5-card .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .div5-card span i {
+    color: #f4df22; }
+
+.div6 {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center; }
+
+.div6-images {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px; }
+
+.img1, .img2, .img3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .img1 > img, .img2 > img, .img3 > img {
+    width: 300px;
+    height: 100px;
+    object-fit: contain; }
+
+footer {
+  margin-top: 10%;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 50px; }
+  footer > h2 {
+    color: white; }
+
+@media (max-width: 500px) {
+  nav {
+    display: none; }
+  .div1 {
+    flex-direction: column-reverse;
+    gap: 40px; }
+  .right {
+    width: 100%;
+    background-position: left; }
+  .div2 {
+    margin-top: 10%;
+    height: 120%; }
+  .cards {
+    flex-direction: column;
+    height: 100vh;
+    align-items: center; }
+  .images {
+    flex-direction: column;
+    gap: 40px; }
+  .cont {
+    flex-direction: column;
+    gap: 40px; }
+  .div4-cont {
+    flex-direction: column; }
+  .div4-left {
+    width: 100%;
+    gap: 40px; }
+  .div4-right {
+    width: 100%;
+    gap: 40px; }
+  .right1 {
+    margin-top: 0; }
+  .div5 {
+    height: 150%; }
+  .div5-card {
+    width: 100%;
+    height: 350px; }
+  .div5-cont2 {
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    bottom: 0;
+    align-items: center; }
+  .div6 {
+    margin-top: 50%;
+    align-items: center; }
+  .div6-images {
+    flex-direction: column;
+    gap: 100px; }
+  h1 {
+    text-align: center; }
+  .left1 {
+    width: 100%;
+    gap: 40px;
+    padding: 20px; }
+  .right1 {
+    width: 100%;
+    gap: 40px;
+    padding: 20px; } }
